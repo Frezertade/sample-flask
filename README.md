@@ -14,7 +14,7 @@ Click this button to deploy the app to the DigitalOcean App Platform. If you are
 
 [![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/digitalocean/sample-flask/tree/main)
 
-<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/frezertade/{sample-flask}/tree/main">
+<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/frezertade/sample-flask/tree/main">
  <img src="https://www.deploytodo.com/do-btn-blue.svg" alt="Deploy to DO">
 </a>
 
