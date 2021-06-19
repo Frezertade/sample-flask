@@ -3,4 +3,4 @@ spec:
     - name: sample-python
       git:
         branch: main
-        repo_clone_url: https://github.com/digitalocean/sample-python.git
+        repo_clone_url: https://github.com/frezertade/sample-flask.git
