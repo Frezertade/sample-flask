@@ -1,6 +1,8 @@
 spec:
+  name: sample-flask
   services:
-    - name: sample-python
-      git:
-        branch: main
-        repo_clone_url: https://github.com/frezertade/sample-flask.git
+  - environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/frezertade/sample-flask.git
+    name: sample-flask
