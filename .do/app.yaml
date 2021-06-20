@@ -1,1 +1,9 @@
 
+name: sample-flask
+services:
+- environment_slug: flask
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: frezertade/sample-flask
+  name: sample-flask
