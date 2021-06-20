@@ -25,27 +25,27 @@ def hello_world():
 def hello_world():
     return "Hello Mitu"
 
-@app.route('/news', methods=['GET'])
-def get_all_stars():
-    return dumps(list(mycol.find().limit(50)), indent=2)
-
-
-@app.route('/news/telegram/tikvah', methods=['GET'])
-def get_all_telegram_tikvah():
-    return dumps(list(mycolTikvah.find().limit(20)), indent=2)
-
-
-@app.route('/news/telegram/ebc', methods=['GET'])
-def get_all_telegram_ebc():
-    return dumps(list(mycolEbc.find().limit(20)), indent=2)
-
-
-@app.route('/news/telegram/bisratsport', methods=['GET'])
-def get_all_telegram_bisratsport():
-    return dumps(list(mycolBisrat.find().limit(20)), indent=2)
-
-
-@app.route('/news/twitter/abiyahmadali', methods=['GET'])
-def get_all_twitter():
-    return dumps(list(mycolAbiy.find().limit(20)), indent=2)
-
+# @app.route('/news', methods=['GET'])
+# def get_all_stars():
+#     return dumps(list(mycol.find().limit(50)), indent=2)
+#
+#
+# @app.route('/news/telegram/tikvah', methods=['GET'])
+# def get_all_telegram_tikvah():
+#     return dumps(list(mycolTikvah.find().limit(20)), indent=2)
+#
+#
+# @app.route('/news/telegram/ebc', methods=['GET'])
+# def get_all_telegram_ebc():
+#     return dumps(list(mycolEbc.find().limit(20)), indent=2)
+#
+#
+# @app.route('/news/telegram/bisratsport', methods=['GET'])
+# def get_all_telegram_bisratsport():
+#     return dumps(list(mycolBisrat.find().limit(20)), indent=2)
+#
+#
+# @app.route('/news/twitter/abiyahmadali', methods=['GET'])
+# def get_all_twitter():
+#     return dumps(list(mycolAbiy.find().limit(20)), indent=2)
+#
