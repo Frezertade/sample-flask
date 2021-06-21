@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template
+# from flask import render_template
 # import pymongo
 # from bson.json_util import dumps
 
@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return render_template("index.html")
+    return "Hey"
 
 @app.route("/api")
 def hello_world():
